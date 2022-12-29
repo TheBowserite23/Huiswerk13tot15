@@ -1,0 +1,50 @@
+ul a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    height: 22px;
+    width: 100px;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    border-left: 2px rgb(4, 1, 48);
+    border-right: 1px rgb(4, 1, 48);
+    background-color: purple;
+    }
+li:hover{
+    background-color: rgb(155, 25, 155);
+    border-style: none;
+}
+body{
+    background-color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+ table, td, th{
+    padding: 10px 5px;
+    text-align: center;
+}
+input[type="text"], input[type="email"], textarea, button{
+    display: block;
+    box-sizing: border-box;
+    margin: 15px 0px;
+    width: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+button:active{
+    background-color: purple;
+}
+header, footer{
+    padding: 5px;
+    background-color: rgb(141, 39, 236);
+}
+.p1{
+    background-color: white;
+    text-align: center;
+}
